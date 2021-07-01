@@ -80,12 +80,12 @@ class Admin extends CI_Controller {
             }
 
             if($_FILES['file']['name'] !== ''){
-                $config['upload_path']          = './assets/file';
-                $config['allowed_types']        = 'pdf';
-                $config['max_size']             = 10000;
-                $config['encrypt_name']         = true;
+                $config2['upload_path']          = './assets/file';
+                $config2['allowed_types']        = 'pdf';
+                $config2['max_size']             = 10000;
+                $config2['encrypt_name']         = true;
 
-                $this->load->library('upload', $config);
+                $this->upload->initialize($config2);
 
                 if ( ! $this->upload->do_upload('file'))
                 {
