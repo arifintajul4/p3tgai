@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="https://p3tgai-bwsnt1-opivbidom2021.id/assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="<?= base_url('assets/img/favicon.png') ?>" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://p3tgai-bwsnt1-opivbidom2021.id/assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     <title>Kementerian Pekerjaan Umum dan Perumahan Rakyat</title>
 </head>
 
@@ -13,8 +13,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="https://p3tgai-bwsnt1-opivbidom2021.id/">
-                    <img src="https://p3tgai-bwsnt1-opivbidom2021.id/assets/img/logo.png" alt="Logo" height="30px">
+                <a class="navbar-brand" href="<?= base_url('/home') ?>">
+                    <img src="<?= base_url('assets/img/logo.png') ?>" alt="Logo" height="30px">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
